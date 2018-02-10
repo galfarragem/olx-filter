@@ -1,0 +1,12 @@
+
+{
+    "manifest_version": 2,
+    "name": "OLX filter",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://www.olx.pt/*", "https://www.olx.com/*"],
+            "js": ["jquery-3.3.1.slim.min.js", "content.js"]
+        }
+    ]
+}
